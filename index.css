@@ -1,11 +1,15 @@
+
+
 body,
 ul,
 li,
 p,
-h2
+h2,
+h1
 {
     margin: 0;
     padding: 0;
+    font-family:"微软雅黑"；
 }
 a{
     text-decoration: none;
@@ -42,6 +46,10 @@ li{
     text-align: center;
     color: #a3a3a3;
 }
+.second{
+    width: 100%;
+    position: relative;
+}
 .coures .active{
     color: #f33;
 }
@@ -57,4 +65,62 @@ li{
     font-size: 18px;
     width: 220px;
     background: #e8e7e3;
+}
+.main{
+    width: 77%;
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+.tpn{
+    margin-left: 25px;
+    padding: 15px 0 ;
+    border-bottom: #333 solid 1px;
+}
+.tpn ul{
+    overflow: hidden;
+}
+.tpn li{
+    float: left;
+    width: 105px;
+    height: 30px;
+    background: #f3f3f3;
+    text-align: center;
+    margin-left: 15px;
+    border: #e8e8e8 solid 1px;
+    padding-top: 5px;
+}
+.main_cont{
+    line-height: 150%;
+    margin: 0 0 0 25px;
+    padding: 25px 0 25px 0;
+    border-bottom: #aaa dashed 1px;
+}
+.main_cont h2{
+    font-size: 18px;
+    color: #3f3f3f;
+}
+.main_cont h1{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.main_cont p{
+    line-height: 30px;
+    margin: 8px 0 0 0;
+    font-size: 14px;
+}
+.main_cont a{
+    color: #8c0e0f;
+}
+footer{
+    margin-top: 20px;
+    line-height: 60px;
+    text-align: center;
+    background: #ddd;
+    width: 100%;
+    height: 60px;
+}
+.p{
+    margin: 25px;
+    color: rgb(133, 133, 133);
 }
