@@ -1,7 +1,8 @@
 body,
 ul,
 li,
-p
+p,
+h2
 {
     margin: 0;
     padding: 0;
@@ -26,6 +27,7 @@ li{
     position: relative;
 }
 .nav{
+    overflow: hidden;
     margin: 10px 0 ;
 }
 .nav li {
@@ -39,4 +41,20 @@ li{
     width: 157px;
     text-align: center;
     color: #a3a3a3;
+}
+.coures .active{
+    color: #f33;
+}
+.coures li a{
+    font-size: 14px;
+    padding: 5px 0 5px 15px;
+    color: #000;
+}
+.coures h2{
+    font-weight: normal;
+    padding: 10px 0 10px 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    width: 220px;
+    background: #e8e7e3;
 }
