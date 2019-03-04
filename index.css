@@ -1,0 +1,42 @@
+body,
+ul,
+li,
+p
+{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline; 
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background: #bebebe;
+    position: relative;
+}
+.nav{
+    margin: 10px 0 ;
+}
+.nav li {
+    width: 157px;
+    height: 48px;
+    font-size: 26px;
+    float: left;
+}
+.nav li a{
+    display: block;
+    width: 157px;
+    text-align: center;
+    color: #a3a3a3;
+}
